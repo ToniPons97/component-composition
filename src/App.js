@@ -3,7 +3,7 @@ import { Container } from './components/Container';
 
 function App() {
   return (
-    <Container>
+    <Container title={<h1>Component Composition 02!</h1>}>
       <div>Child 1</div>
       <div>Child 2</div>
       <div>Child 3</div>
